@@ -5,7 +5,6 @@ from display import *
 # importercsvStudent()
 
 menu()
-
 # list_tasks_with_details()
 
 # delete_student_from_tasks()
@@ -13,3 +12,9 @@ menu()
 # add_student_from_tasks()
 
 # genererDocument()
+
+# importercsvclasses()
+
+# generer_planning_ordre_en_classe()
+
+# validate_class_order()

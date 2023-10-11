@@ -23,27 +23,24 @@ def menu():
         choix = input("Choisissez une option : ")
 
         if choix == '1':
-            #                                             +
+            #
             list_tasks_with_details()
 
         elif choix == '2':
-            classes = get_all_classes()
-            for (id, name) in classes:
-                print("{} - {}".format(id, name))
+            generer_planning_ordre_en_classe()
         elif choix == '3':
-            #Valider l’ordre en classe de la semaine
-            pass
+            validate_class_order()
         elif choix == '4':
-            #Supprimer un élève de la liste               +
+            #Supprimer un élève de la liste
             delete_student_from_tasks()
         elif choix == '5':
             # add student
             add_student_from_tasks()
         elif choix == '6':
-            #Générer le document « Ordre en classe »      +
+            #Générer le document « Ordre en classe »
             genererDocument()
         elif choix == '7':
-            #                                             +
+            #
             print("au revoir")
             break
         else:
